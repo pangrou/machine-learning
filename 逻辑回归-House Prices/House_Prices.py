@@ -6,8 +6,8 @@ import pandas as pd
 # import matplotlib.pyplot as plt
 # import seaborn as sns
 
-df = pd.read_csv("/Users/m2shad0w/Desktop/python/机器学习相关/逻辑回归-House Prices/train.csv")
-test_data = pd.read_csv("/Users/m2shad0w/Desktop/python/机器学习相关/逻辑回归-House Prices/test.csv")
+df = pd.read_csv("train.csv")
+test_data = pd.read_csv("test.csv")
 
 misGarage = ["GarageType","GarageFinish",\
 				"GarageCars","GarageArea","GarageQual","GarageCond"]
